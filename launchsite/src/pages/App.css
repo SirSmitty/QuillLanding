@@ -1,0 +1,173 @@
+html {
+  overflow-y: scroll;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+}
+
+body {
+  overflow-y: visible;
+  position: relative;
+  height: unset;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+canvas {
+  position: fixed;
+  max-width: 100%;
+  max-height: 100%;
+  pointer-events: none;
+  /* Prevent interaction with the canvas */
+}
+
+.infographic-container {
+  position: relative;
+  min-height: 100vh;
+  z-index: 10;
+}
+
+.philosophy-container {
+  background: linear-gradient(black, #202020);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Center-align content vertically */
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem;
+  /* Padding around the container */
+  box-sizing: border-box;
+  /* Include padding in width calculations */
+}
+
+.philosophy-content {
+  width: 45%;
+  /* Slightly less than 50% to account for padding */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* Space between title and text */
+  padding-right: 2rem;
+  /* Padding on the right */
+}
+
+.philosophy-title {
+  font-size: 3vw;
+  /* Adjusted for better balance */
+  margin-bottom: 0.5rem;
+}
+
+.philosophy-text {
+  font-size: 1.2vw;
+  /* Slightly larger for readability */
+  line-height: 1.6;
+}
+
+.philosophy-svg-wrapper {
+  width: 45%;
+  /* Matches the content width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  /* Padding on the left */
+}
+
+.philosophy-svg img {
+  width: 100%;
+  /* Responsive scaling of the image */
+  /* Optional max width for the image */
+  height: auto;
+  /* Make the image white */
+}
+
+.container {
+  width: 300%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  z-index: 1;
+  background-color: #202020;
+}
+
+.panel {
+  flex: 0 0 100%;
+  /* Each panel takes up 100% of the viewport width */
+  height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 90%;
+}
+
+.panel-title {
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  padding-left: 10%;
+  padding-bottom: 3%;
+}
+
+.panel-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 15vw;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.svg-wrapper {
+  width: 30%;
+}
+
+.svg-wrapper img {
+  width: 100%;
+  height: auto;
+  filter: brightness(0) invert(1);
+
+}
+
+.text-description {
+  flex: 1;
+  font-size: 2vw;
+  line-height: 1.5;
+  color: white;
+  max-width: 60%;
+  text-align: left;
+}
+
+.text-description p {
+  margin: 0;
+}
+
+
+.lastContainer {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#202020, black);
+  color: white;
+}

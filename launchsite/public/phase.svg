@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 471.71 509.43">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 0 2;
+      }
+
+      .cls-4 {
+        fill: #231f20;
+        font-family: 'Inter';
+        font-size: 21px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <circle class="cls-1" cx="221.9" cy="254.35" r="220.55"/>
+    <line class="cls-1" x1="221.2" y1="34.5" x2="221.2" y2="475.6"/>
+    <line class="cls-1" x1=".65" y1="255.05" x2="441.75" y2="255.05"/>
+    <line class="cls-1" x1="221.2" y1="255.05" x2="376.87" y2="99.37"/>
+    <line class="cls-1" x1="376.87" y1="99.37" x2="376.87" y2="255.05"/>
+    <ellipse class="cls-3" cx="221.2" cy="255.05" rx="220.2" ry="55.81"/>
+    <path class="cls-1" d="m221.2,229.04c.6-.21,6.08-2.02,11.9-.07,6.18,2.07,7.21,6.51,7.29,6.89"/>
+    <text class="cls-4" transform="translate(194.18 19.49)"><tspan x="0" y="0">Z = |0&gt;</tspan></text>
+    <text class="cls-4" transform="translate(233.1 228.97)"><tspan x="0" y="0">θ</tspan></text>
+    <text class="cls-4" transform="translate(380.83 88.01)"><tspan x="0" y="0">|ψ&gt;</tspan></text>
+    <line class="cls-2" x1="194.81" y1="3.74" x2="200.49" y2=".43"/>
+    <line class="cls-2" x1="205.62" y1="3.73" x2="199.94" y2=".45"/>
+    <line class="cls-2" x1="460.62" y1="241.61" x2="466.29" y2="238.3"/>
+    <line class="cls-2" x1="471.43" y1="241.6" x2="465.74" y2="238.32"/>
+    <line class="cls-2" x1="192.74" y1="485.81" x2="198.42" y2="482.5"/>
+    <line class="cls-2" x1="203.55" y1="485.79" x2="197.86" y2="482.51"/>
+    <text class="cls-4" transform="translate(460.35 260.33)"><tspan x="0" y="0">Y</tspan></text>
+    <text class="cls-4" transform="translate(186.08 504.18)"><tspan x="0" y="0">-Z = |1&gt;</tspan></text>
+  </g>
+</svg>
