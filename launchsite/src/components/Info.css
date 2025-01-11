@@ -1,0 +1,84 @@
+.scroller {
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+    background-color: black;
+    z-index: 50;
+}
+
+.black {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    /* Prevent panel overflow */
+}
+
+.p-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+}
+
+.panel {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    /* Ensure proper visibility */
+    transition: height 0.3s ease-out;
+}
+
+.panel.blue {
+    background-color: blue;
+}
+
+.panel.red {
+    background-color: red;
+}
+
+.panel.orange {
+    background-color: orange;
+}
+
+.panel.purple {
+    background-color: purple;
+}
+
+.text-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 50%;
+}
+
+.panel-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+    background-color: black;
+    color: white;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
